@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+    @apply max-w-[1520px] mx-auto;
+}
+
+body{
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.catalog_filter{
+    @apply text-black text-2xl border-[3px] border-black px-[46px] py-[20.5px];
+}
+
+.catalog_filter.active{
+    @apply text-white text-2xl border-0 bg-black px-[46px] py-[20.5px];
+}
+
+.catalog-list{
+    display: grid;
+    column-gap: 20px;
+    row-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+}

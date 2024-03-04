@@ -1,9 +1,7 @@
-import { useState } from 'react'
 import gif from './assets/что-за-бизнес-мелстрой.mp4'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
